@@ -12,20 +12,27 @@ module.exports = {
     "../lib/*_web/**/*.*ex"
   ],
   theme: {
-    extend: {
+    colors: {
+      'blue': '#031D3A',
+      'pink': '#E7B9B3',
+      'tan': '#C4A484',
+      'silver': '#C0C0C0',
+      'gold': '#FFD700',
+      'white': '#FFFFFF',
+      'lightBlue': '#D6E9FF'
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
       fontFamily: {
         pacifico: ['Pacifico', 'cursive'],
         jost: ['Jost', 'sans-serif']
       },
-      colors: {
-        brand: "#FD4F00",
-        blue: "#031D3A",
-        pink: "#E7B9B3",
-        tan: "#C4A484",
-        silver: "#C0C0C0",
-        gold: "#FFD700"
-      }
-    },
+    extend: {}
   },
   plugins: [
     require("@tailwindcss/forms"),
