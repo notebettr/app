@@ -13,8 +13,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pacifico: ['Pacifico', 'cursive'],
+        jost: ['Jost', 'sans-serif']
+      },
       colors: {
         brand: "#FD4F00",
+        blue: "#031D3A",
+        pink: "#E7B9B3",
+        tan: "#C4A484",
+        silver: "#C0C0C0",
+        gold: "#FFD700"
       }
     },
   },
