@@ -1,18 +1,5 @@
-# App
+# Hello!
 
-To start your Phoenix server:
+This app is in the very very beginning stages of development. It will eventually be a note taking app that is designed to support folks with ADHD take better notes and improve their retention and comprehension of the content that they took notes on. This app will be suitable for both students and working professionals. 
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+I will be taking volunteers for beta testing of the MVP in the near future! If you are interested in being a beta tester, please email anna@desertform.com. Thank you!
