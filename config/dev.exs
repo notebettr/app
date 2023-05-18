@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :app, App.Repo,
-  username: "postgres",
-  password: "m0msSp@ghetti",
-  hostname: "localhost",
-  database: "postgres",
+  username: {:system, "DB_USER"},
+  password: {:system, "DB_PASSWORD"},
+  hostname: {:system, "DB_HOST"},
+  database: {:system, "DB_NAME"},
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
